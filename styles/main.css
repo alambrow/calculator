@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flexBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: rgb(35, 153, 168);
+}
+
+#banner {
+    background-color: salmon;
+}
+.answerBox {
+    background-color: rgba(231, 31, 171, 0.9);
+    padding: 1rem;
+    border: .2rem dashed rgb(30, 165, 255);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    box-shadow: .6rem .6rem rgba(235, 9, 197, 0.3);
+}
+
+.myButton {
+    padding: 1rem;
+    border: .4rem dashed rgb(30, 165, 255);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    box-shadow: .6rem .6rem rgba(99, 61, 92, .7);
+    background-color: rgba(218, 32, 103,.9);
+    font-size: xx-large;
+}
